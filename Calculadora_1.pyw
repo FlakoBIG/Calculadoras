@@ -97,7 +97,7 @@ lbl_valor_2 = Label(ventana,text="Segundo numero",font="Arial 10",bg="grey")
 input_1 = Entry(ventana,font="Arial 10")
 input_2 = Entry(ventana,font="Arial 10")
 
-btn_volver = Button(ventana,text="<=",font="Arial 10",bg="black",fg="white",width=2,command=Volver)
+btn_volver = Button(ventana,text="←",font="Arial 10",bg="black",fg="white",width=1,command=Volver)
 btn_suma = Button(ventana,text="Suma",font="Arial 10",bg="green",fg="white",width=10,command=lambda:Validar("Sumar"))
 btn_resta = Button(ventana,text="Resta",font="Arial 10",bg="red",fg="white",width=10,command=lambda:Validar("Restar"))
 btn_multiplicacion = Button(ventana,text="Multiplicacion",font="Arial 10",bg="blue",fg="white",width=10,command=lambda:Validar("Multiplicar"))
